@@ -1,0 +1,4 @@
+SELECT Last_Name
+FROM emps
+WHERE Department_Id IN (20,50)
+ORDER BY Last_Name;
